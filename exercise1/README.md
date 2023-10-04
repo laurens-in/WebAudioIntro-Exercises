@@ -1,4 +1,4 @@
-### Exercises 1
+### Exercise 1
 
 First open your terminal and run `npm install`.
 
