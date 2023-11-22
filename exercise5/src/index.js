@@ -98,4 +98,5 @@ const stopFmNote = (...playingNotes) => {
 // so that we can apply .forEach
 // we could also have written it like this:
 // const stopFmNote = (carrierRef, modulatorRef) => {}
-// and then stop them individually, but if we do it like this we are more flexible if we need to stop more in the future
+// and then stop them individually, but if we do it like this we are more flexible
+// we can give any number of parameters to this function and they will all be collected into the playingNotes array
